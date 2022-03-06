@@ -1,0 +1,8 @@
+com\webshop\webshop\repositories\ProductRepository.class
+com\webshop\webshop\Response.class
+com\webshop\webshop\InputInvalidException.class
+com\webshop\webshop\controlers\ProductsControler.class
+com\webshop\webshop\WebshopApplication.class
+com\webshop\webshop\CustomizedResponseEntityExceptionHandler.class
+com\webshop\webshop\ExeptionResponse.class
+com\webshop\webshop\models\Product.class

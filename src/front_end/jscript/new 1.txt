@@ -1,0 +1,13 @@
+fetch(url)
+  .then(resp => {
+     // you'll need to supply the function that checks the status here
+     if (http_response_ok(resp.status)) {
+       return resp.json();
+     } else {
+       throw new Error(`Got back ${resp.status}`);
+     }
+  }).then(data => {
+     // happy path
+  }).catch(err => {
+     // sad path
+  });

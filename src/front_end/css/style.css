@@ -1,0 +1,58 @@
+body{padding:0;margin:0;font-family: "Lato", "Helvetica Neue", Arial, sans-serif;font-size:14px;color:#706868;}
+a:visited {text-decoration:none;}
+a:active {text-decoration:none;}
+a:hover {text-decoration:none;}
+header {background-color: #00539c;margin:0;width:100%;font-size:25px;}
+h1{margin-top:10px;margin-bottom:10px;text-align:center;color:#F1B700;}
+header a {color:#F1B700; text-decoration:none;}
+
+#knoppen {margin:85px 0 0 10%;}
+
+.menuKnop {
+  background-color: #090934; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin:10px 1% 0 0;
+  
+}
+
+button:hover {cursor: pointer;}
+
+.content {margin-top:200px;width:100%;}
+#testnummer
+{ font-size: 75px; line-height: 100px;
+margin-left:10%;margin-top:200px;
+ visibility: hidden;color:#082E6B;
+}
+#letter{margin:0 0 0 5%;}
+
+
+input[type=text] {width: 33%;color:#082E6B;height:50px;
+    padding: 12px 20px;
+    margin-top:10px;margin-bottom:20px;
+    box-sizing: border-box;
+    border: 2px solid #1e62d0;
+    border-radius: 15px;
+    font-size: 25px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);width:100%;}
+	
+input[type=text]:focus{outline: none;}
+label{ font-size: 25px;}
+	
+#nummerInput {float:left;}
+#uitleg {margin:0 0 0 10%;width:70%;}	
+#textarea {float:right;border:none;color:white;font-size:1px;}
+
+.rij{width:100%;border:1px solid grey;height:50px;}
+.item{float:left; margin:1%;color:#00539c;min-width:10%;font-size:130%;}
+#uitvoer{margin: 30px;}
+.delKnopje {margin-top:15px;color:red;background-color:#1e62d0;border:none;padding:5px;font-weight:bold;}
+
+form{width:50%; margin:auto;}
+
+#melding {width:50%;margin-left:auto;margin-right:auto; margin-top:25px;border:1px solid black;height:50px;padding:10px;visibility:hidden; }
